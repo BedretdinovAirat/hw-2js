@@ -57,7 +57,39 @@
 // let info = prompt("Какую информацию хотите узнать о пользователе?");
 // alert(`info`);
 // 10 mission
-let firstName = prompt("Назовите ваше имя");;
-alert("Привет, " + `${firstName}` + "!");
-console.log("Для гита");
+// let firstName = prompt("Назовите ваше имя");;
+// alert("Привет, " + `${firstName}` + "!");
+// console.log("Для гита");
 // пытаюсь разобраться в гит
+// 2.3 lesson 
+// let a = Number(prompt('Введите первое число'));
+// let b = Number(prompt('Введите второе число'));
+// // let max = a;
+// //  clg - console.log || && !
+// if (a > b) {
+//     console.log('Первое число больше');
+// } else if (a === b) {
+//     console.log('Числа равны');
+// } else  if (a < b ) {
+//     console.log('Второе число больше');
+// } else  {
+//     console.log('Ты ввёл белеберду');
+// }
+// if (max < b) {
+//     max = b;
+// }
+// console.log(`Максимальное число ${max}`);
+let time = String(prompt('Сколько время?'));
+// answer = answer.toLocaleLowerCase();
+// if (answer === 'елка' || answer === 'ёлка' || answer === 'ель') {
+//     console.log('угадал');
+// } else {
+//     console.log('не угадал');
+// }
+// if (time >= 40 && time <= 60) {
+//     console.log('Можешь идти');
+// } else {
+//     console.log('Не удачное время');
+// }
+(time >= 40 && time <= 60) ? console.log('Можешь идти') : console.log('Не удачное время');
+// (условие) ? true : false;
